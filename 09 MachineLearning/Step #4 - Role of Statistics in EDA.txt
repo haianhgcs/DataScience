@@ -1,0 +1,27 @@
+What is Statistics?
+Statistics is set of rules and concepts for analysis and interpretation of the data. 
+
+Role of Statistics in EDA: 
++ Univariate: 
+	- central tendencies (mean, median, mode), range, average
+	- distributions and 
+	- spread of data
++ Bivariate
+	- relationship b/w variables: correlation or covariance which define how the variables depend on each other
+	- similarity/hypothesis testing which allow us to quantify whether the two samples are significantly similar, or different from each other
++ Experiments (in order to see if we can make business more profitable)
+	- T-tests (one-sample, paired, two-sample) allow us to quantify whether the experiments were successful or not
++ Population Estimation: central limit theorem (approximate the 2 parameters of the entire data, with the help of many small groups of the data.
+
+Descriptive Statistics
+Descriptive Statistics deals with the summarization of the data at hand by means of central tendency, spread of the data or relation between two variables. 
+	- Summarising
+	- Central tendency
+	- Spread of data
+	- Relation b/w variables
+
+Inferential Statistics
+Inferential Statistics is used to approximate population estimate from sample data.
+	- Approximation
+	- Sampling
+	- Error analysis of sample

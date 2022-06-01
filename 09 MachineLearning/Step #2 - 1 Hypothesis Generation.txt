@@ -1,0 +1,16 @@
+What is Hypothesis?
+A hypothesis is a possible view or assertion of a data scientist about the problem he or she is working on. It may or may not be true
+
+Why do we need Hypothesis Generation?
+As data scientist, it is not make sense to first see the data in detail, spend some time with it, and then dive into what we can test and analyze
+	Non-hypothesis driven data analysis:
+		- Collect the entire data
+		- Analyze every variable available
+		- Could lead to narrow vision
+	Hypothesis driven analysis
+		- List hypothesis BEFORE looking at data
+		- Smaller & specific pieces to work with
+		- Provides an UNBIASED view
+		Exhaustive set -> Collect data -> test each hypothesis 
+	Who joint to this phase? Stakeholders / Data Science team / Marketing Team / Sales Team
+	-> Involve all the relevant people / team in the brainstorming process. This is how an exhoustive list of hypothesis is built.

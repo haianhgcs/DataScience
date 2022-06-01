@@ -1,0 +1,58 @@
+Definition of Probability
+	Probability is the likelihood or chance of an event occuring.
+
+Relevance of Probability
++ Improve Business Sense
+
+Churn prediction
+Problem: Identify customer who will churn
+
+Random Experiment - Phép thử ngẫu nhiên
++ Random experiment is a process with a number of possible outcomes.
++ Those outcomes are not necessarily certain
++ can be repeated numerous times under the same conditions
++ Generally the outcome of an individual random experiment is independent and identically distributed. It implies that probability of one trial is independent of other trials, and they are equally likely.  
+
+
+Sample Space (S) - Không gian mẫu
+Sample Space associated with a random experiment is a set of all possible outcomes  
+
+Event - sự kiện
+An event is a subset of Sample Space
+
+Probability
+The probability of an Event E, is a number P, between 0 and 1 that measures the likelihood that Event will occur.
+
+P(event) = (count of outcomes in Event) / (count of outcomes in Sample Space)
+
+P = 0 -> impossible event
+P = 1 -> Certain event
+
+Basic concepts of Probability:
++ Complements
++ Union
++ Intersections
+
+Complement - Sự kiện đối
+The complement of an event E is a sample space S, is the collection of all outcomes in S that are not elements of the set E
+P(E^c) = 1 - P(E)
+
+Intersection - Sự kiện giao
+Intersection (n) is the collection of all outcomes that are common in events
+P(A n B) = 
+
+Union - Sự kiện hợp
+Union (u) is the collection of all outcomes that are elements of any of the events.
+P(A u B) = P(A) + P(B) - P(A n B)
+
+Axioms of Probability - Tiên đề về xác suất
+
+Axiom 3: Mutually Exclusive Event - Two events, A and B are said to be mutually exclusive if they cannot occur together (have no common elements)
+
+Mutually Exhoustive Event - means that the events together make up everything that can possibly happen.
+
+
+
+  
+
+

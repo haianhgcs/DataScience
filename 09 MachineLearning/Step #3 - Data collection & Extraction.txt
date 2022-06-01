@@ -1,0 +1,4 @@
+We collect data from different databases of the Bank:
++ Customer Demographics
++ Transaction Data
++ Bank Branch Data

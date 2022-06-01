@@ -1,0 +1,30 @@
+Why do we need EDA?
+EDA helps us:
++ Insights: to draw out the important inferences and insights from the data. These insights can help us in several ways.
+	- Variable Identification: For instance, finding out the nature of the data that is identifying the type of the variables in the data, whether the data consists of numeric variables, or does it contain categorical variables, or does it have a mix of both. 
+	- Behaviour of Variables: Finding insights about the behavior or the variables, for example, whether a variable has values between zero to 10 or is it between zero to one million? 
+	- Relationship b/w Variables: These insights can also reveal the relations between different variables, as in, how are the variables dependent on each other? 
++ Data consistency: 
+	- All data present? For example, performing a consistency check to ensure all the data is present. 
+	- Any missing values? The missing values can occur for diverse reasons and might have some underlying pattern behind them.
+	- Any outliers? For example, a person having a age of 200 years would clearly be an outlier. We need to identify such outliers and take a decision on how to deal with them accordingly. 
++ Feature Engineering
+	- Ideals for feature engineering
+	
+Steps in EDA
+1. Variable Identification
+Identify every variable by discovering its variable type. 
+
+2. Univariate Analysis
+Pick a variable and discover its individual characteristics with the help of statistics.
+	- univariable analysysis for numerical data such as age
+	- univariable analysis for categorical data such as gender
+	
+3. Bivariate/multivariate Analysis
+Defines the relationship between different variables to find out how they depend on each other or how they vary with each other. 
+
+4. Missing Value Treatment
+Check for the missing values in the data. The primary aim for this is to find out if there is any specific reason why the values are missing and to understand the pattern and extent of missing values in the dataset. 
+
+5. Outlier Removal
+It is essential that we understand the presence of outliers as some of the predictive models are sensitive to them and we have to treat them accordingly. 

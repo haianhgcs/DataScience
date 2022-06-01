@@ -1,0 +1,21 @@
+1. Download python 3.9 from below link:
+https://www.python.org/downloads/release/python-397/
+
+2. Install python 3.9
+Python will be installed into ...
+
+3. Install virtualenv
+>pip install --user virtualenv
+
+4. Create new environment
+>python -m venv venv
+
+5. active environement
+>.\venv\Scripts\activate
+
+Note: in PowerShell if get this error then should run below command:
+>Set-ExecutionPolicy Unrestricted -Scope Process
+Then set environment activate again
+
+6. Install required package
+> pip3 install -r requirements.txt

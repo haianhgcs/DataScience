@@ -1,0 +1,43 @@
+1. Problem Definition
+To define the right problem, identify the right problem statement, ideally formulate the problem mathematically
+	Bad Problem Statement: Want to increase the sale of the company -> Why bad? It lacks any kind of specifications
+	Continue ask questions to stakeholder:
+		- Want to focus on one of sales channel "Agent Distribution Channel"?
+		- Want to improve product portfolio or agent productivity efficiency?
+		- Want to focus on new or existing agent produtivity efficiency?
+		- Want to focus on new agent productivity efficiency for first 3 / 6/ 12 months?
+	Good Problem Statement: Want to inrease the productivity of sales agent for first 6 months
+
+2. Hypothesis Generation
+List down all hypothesis which might solve the problem
+List down ll possible variables, which might influence problem objective
+Example: What are factors, those can impact the credit score of customer?
+	- Income: Higher Income means higher chance of financial stability that may lead to higher score
+	- Job Type: if job is more stable that can also lead to higher credit score. Example: Front End Sales job is less stable than data science job
+	- Past credit history: Your previous good repayment behaviour suggest that you know how to use credit products and that leads to higher score
+	- Edution: Higher education is directly proportionate to awareness about the use of credit products and that may impact the repayment ratio
+
+3. Data Extraction / Collection
+
+4. Data Exploration and Transformation
+This stage helps to understand the hidden trend of data, data cleaning and data transformation
+	4.1 Variable Identification
+	4.2 Univariable Analysis
+	4.3 Bivariable Analysis
+	4.4 Missing Value Treatment
+	4.5 Outlier Treatment
+	4.6 Variable Transformation
+
+5. Predictive Modeling
+It is a process to create statistical model for estimating/ predicting the future behaviour based on past data.
+Example: A retail bank wants to know the default behaviour of its credit card customers. 
+	     They want to predict the probability of default for each customer within next 3 months.
+			- Probability of default would lie between 0 and 1
+			- Assume 10% of customers will default in the next 3 months
+Steps of predict modeling:
+	1. Algorithm Selection: Have dependent variable? Yes: Supervised Learning; No: Unsupervised Learning
+	2. Training Model: Is a process to learn relationship/ correlation between independent and dependent variables; 
+	3. Prediction/Scoring: It is a process to estimate/ predict dependent variable of test data set by applying model rules
+
+6. Model Deployment / Implementation
+is a process to serve model estimation to users & We can also deploy model results to develop data driven products

@@ -1,0 +1,28 @@
+Data Types
++ Categorical
+	- Nominal: 
+		* discrete: represent discrete units and are used to label variables that have no quantitative value
+		* No specific order
+		* Changing Label doesn't impact Meaning (example: male/female, ....)
+	- Ordinal
+		* Discrete
+		* Specifict order
+		* labels represent meaning (example: horese rasing, your grades, ...)
++ Numerical 
+	- Discrete
+		* Takes only certain values
+		* Can be counted
+	- Continous
+		* Can take any value
+		* Can not be counted but measured
+	
+	
+Categorical data:
++ Also known as Quanlitative data
++ Represent Characteristics or Qualities
+
+Numerical data:
++ Quantitative
++ Numerical significance
+
+Variable Identification

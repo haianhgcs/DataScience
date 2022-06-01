@@ -1,0 +1,34 @@
+1. Setup jupyter notebook (without anaconda)
+>pip3 install jupyter
+
+2. Setup working folder
++ Look for the jupyter_notebook_config.py in C:\Users\your_user_name\.jupyter 
+If you don't have it, then go to the cmd line and type:
+>jupyter notebook --generate-config
+
++ Open the jupyter_notebook_config.py and search c.NotebookApp.notebook_dir
++ Uncomment it by removing the #
++ Change it to
+c.NotebookApp.notebook_dir = 'C:/your/new/path'
+Note: You can put a u in front of the first ', change \\\\ to /, or change the ' to ". I don't think it matters. 
+
+3. Setup code formater
+>pip3 install jupyterlab_code_formatter
+
+4. Setup Google drive for JupyterLab
+We use google drive to store our data on the cloud and use it whenever needed. 
+>jupyter labextension install @jupyterlab/google-drive
+
+5. Setup JupyterLab system monitor
+Most of the time we run our code on Jupyter notebook without knowing the current memory usage. Due to this many times, our notebook freezes and stops working due to memory runout. It will be beneficial if we have the statics of current memory usage and CPU usage.
+JupyterLab system monitor is an extension that displays system information like CPU usage and memory usage in the Jupyter notebook.
+>pip3 install jupyterlab-system-monitor
+
+3. Setup extensions - Table of contents
+>pip3 install jupyterlab_bookmarks_extension
+
+Start jupyter lab:
+>python -m jupyterlab
+
+or start jupyter notebook:
+>jupyter notebook

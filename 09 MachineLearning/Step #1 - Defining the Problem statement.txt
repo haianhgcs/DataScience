@@ -1,0 +1,41 @@
+Asking questions: "Can you identify which customers are likely to carry low balances on their Accounts in coming months?"
+
+This still lack of information: What do you mean by low balances? What is the number of months we're talking about?
+
+Questions centred around the problem:
+- What is the underlying cause? (which made the director of customer management to come for help. This will give us an idea of what impact are they expecting, if we provide the solution)
+- Why do you need to predict customers who would carry low balances?
+- Why now?
+- Is there any time sensitivity? Are we working on a timeline?
+
+Who are the Owners?
+- Customer Management Director
+- Anyone else?
+
+Metrics of Evaluation or Success
+- Wat would success look like?
+- How would you act differently if I was able to provide these predictions to you at a customer level? How would we measure the benefit out of this
+- is there any success metric they have already agreed upon?
+
+Constraints:
+- Are there any trade-offs? What other problem can we work on?
+- How much time and money can we spend on this?
+
+Actors/ Stakeholders:
+- Customer Management Director
+- Head of Communications
+- Head of Marketing
+
+References:
+- Dis we try it in past and what was success like?
+
+Describing Problem Statement need TOSCAR:
+T - Trouble
+O - Owners
+S - Success Criteria
+C - Constraints
+A - Actors
+R - Reference
+
+Problem: Falling / stagnating balances for customers in last 3 months
+Problem Statement: "What customer segments are more likely to churn balancs in the next quarter by at least 50% considering current quarter?"
